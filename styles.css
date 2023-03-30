@@ -1,0 +1,18 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-gap: 1px;
+}
+
+
+
+.square {
+   background-color: gray;
+   border: 1px solid black;
+}
+
+.colorChange {
+    background-color: red;
+}
